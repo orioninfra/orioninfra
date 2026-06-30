@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/orioninfra/logo/main/images/Orion.png" alt="Orion Banner"/>
-</p>
-
-<p align="center">
   <i>deterministic validation • low-level control • system-first design</i>
 </p>
 
