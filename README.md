@@ -1,9 +1,3 @@
-<p align="center">
-  <i>deterministic validation • low-level control • system-first design</i>
-</p>
-
----
-
 ##  Overview
 
 Orion Validator is built around a simple idea —
