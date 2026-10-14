@@ -1,3 +1,23 @@
+<h1 align="center">Orion</h1>
+
+<p align="center">
+  <i>machine intelligence for blockchain networks</i>
+</p>
+
+<p align="center">
+  <code>validation</code> · <code>network intelligence</code> · <code>ai agents</code>
+</p>
+
+<p align="center">
+  <a href="https://orionlabsone.cc"><img src="https://img.shields.io/badge/SITE-orionlabsone.cc-black?style=flat-square"/></a>
+  <a href="https://orionlabsone.cc/celestia"><img src="https://img.shields.io/badge/CELESTIA-daily%20brief-grey?style=flat-square"/></a>
+  <a href="https://orionlabsone.cc/monad"><img src="https://img.shields.io/badge/MONAD-network%20monitor-grey?style=flat-square"/></a>
+  <a href="https://orionlabsone.cc/for-ai"><img src="https://img.shields.io/badge/MCP-for%20AI%20agents-lightgrey?style=flat-square"/></a>
+  <a href="https://medium.com/@orion.labsone"><img src="https://img.shields.io/badge/MEDIUM-orion.labsone-black?style=flat-square&logo=medium&logoColor=white"/></a>
+</p>
+
+---
+
 ##  Overview
 
 Orion Validator is built around a simple idea —
@@ -26,6 +46,7 @@ We focus on **reliable long-term participation**, not short-term performance spi
 Validation is not passive infrastructure.
 It requires continuous attention, adjustment, and responsibility.
 
+<!-- networks & services: link to the dedicated repo goes here once it exists -->
 
 ---
 
@@ -74,6 +95,34 @@ Infrastructure, configuration, and execution are continuously tuned to minimize 
 
 ---
 
+##  Network Intelligence
+
+The same monitoring we run for our own nodes, opened up as public analysis.
+Every figure links back to the source it was read from.
+
+| | |
+|---|---|
+| [**Celestia Daily Brief**](https://orionlabsone.cc/celestia) | daily mainnet analysis: anomaly signals, DA volume, namespace leaderboard, validator set, Nakamoto coefficient · [ask Orion](https://orionlabsone.cc/celestia/aichat) |
+| [**Monad Network Monitor**](https://orionlabsone.cc/monad) | daily mainnet brief: snapshot, network pulse, detected signals |
+| [**orion-agent-kit**](https://github.com/orioninfra/orion-agent-kit) | MCP server over the Celestia analysis, read-only, no keys or wallets |
+
+```bash
+claude mcp add --transport http orion https://orionlabsone.cc/mcp
+```
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MCP-orionlabsone.cc%2Fmcp-black?style=flat-square"/>
+  <img src="https://img.shields.io/badge/REST-%2Fapi%2Flatest-grey?style=flat-square"/>
+  <a href="https://orionlabsone.cc/openapi.json"><img src="https://img.shields.io/badge/SPEC-OpenAPI%203.1-grey?style=flat-square"/></a>
+  <a href="https://orionlabsone.cc/api/rss"><img src="https://img.shields.io/badge/FEED-RSS-lightgrey?style=flat-square"/></a>
+</p>
+
+<p align="center">
+  <i>event-driven signals • source-cited figures • read-only by design</i>
+</p>
+
+---
+
 ##  Infrastructure Stack
 
 <p align="center">
@@ -96,6 +145,7 @@ Infrastructure, configuration, and execution are continuously tuned to minimize 
   <code><img height="28" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg"></code>
   <code><img height="28" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg"></code>
   <code><img height="28" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg"></code>
+  <code><img height="28" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/typescript.svg"></code>
 </p>
 
 ```yaml
@@ -110,6 +160,9 @@ automation: ansible
 
 backend:   go / python
 storage:   postgresql
+
+analysis:  daily briefs (celestia, monad)
+agents:    mcp server (typescript)
 ```
 
 <p align="center">
@@ -124,5 +177,10 @@ storage:   postgresql
 </p>
 
 <p align="center">
+  <a href="https://orionlabsone.cc">orionlabsone.cc</a> · <a href="mailto:orion.labsone@gmail.com">orion.labsone@gmail.com</a>
+</p>
+
+<p align="center">
   ─────────────────────────────────────
 </p>
+
