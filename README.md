@@ -1,4 +1,9 @@
-<h1 align="center">Orion</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/orion-dark.png">
+    <img src="assets/orion-light.png" alt="Orion" width="300">
+  </picture>
+</p>
 
 <p align="center">
   <i>machine intelligence for blockchain networks</i>
