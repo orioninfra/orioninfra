@@ -106,10 +106,6 @@ Every figure links back to the source it was read from.
 | [**Monad Network Monitor**](https://orionlabsone.cc/monad) | daily mainnet brief: snapshot, network pulse, detected signals |
 | [**orion-agent-kit**](https://github.com/orioninfra/orion-agent-kit) | MCP server over the Celestia analysis, read-only, no keys or wallets |
 
-```bash
-claude mcp add --transport http orion https://orionlabsone.cc/mcp
-```
-
 <p align="center">
   <img src="https://img.shields.io/badge/MCP-orionlabsone.cc%2Fmcp-black?style=flat-square"/>
   <img src="https://img.shields.io/badge/REST-%2Fapi%2Flatest-grey?style=flat-square"/>
