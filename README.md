@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/orion-dark.png">
-    <img src="assets/orion-light.png" alt="Orion" width="300">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/orioninfra/orioninfra/main/assets/orion-dark.png">
+    <img src="https://raw.githubusercontent.com/orioninfra/orioninfra/main/assets/orion-light.png" alt="Orion" width="300">
   </picture>
 </p>
 
