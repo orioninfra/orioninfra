@@ -55,6 +55,30 @@ It requires continuous attention, adjustment, and responsibility.
 
 ---
 
+##  Network Intelligence
+
+The same monitoring we run for our own nodes, opened up as public analysis.
+Every figure links back to the source it was read from.
+
+| | |
+|---|---|
+| [**Celestia Daily Brief**](https://orionlabsone.cc/celestia) | daily mainnet analysis: anomaly signals, DA volume, namespace leaderboard, validator set, Nakamoto coefficient · [ask Orion](https://orionlabsone.cc/celestia/aichat) |
+| [**Monad Network Monitor**](https://orionlabsone.cc/monad) | daily mainnet brief: snapshot, network pulse, detected signals |
+| [**orion-agent-kit**](https://github.com/orioninfra/orion-agent-kit) | MCP server over the Celestia analysis, read-only, no keys or wallets |
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MCP-orionlabsone.cc%2Fmcp-black?style=flat-square"/>
+  <img src="https://img.shields.io/badge/REST-%2Fapi%2Flatest-grey?style=flat-square"/>
+  <a href="https://orionlabsone.cc/openapi.json"><img src="https://img.shields.io/badge/SPEC-OpenAPI%203.1-grey?style=flat-square"/></a>
+  <a href="https://orionlabsone.cc/api/rss"><img src="https://img.shields.io/badge/FEED-RSS-lightgrey?style=flat-square"/></a>
+</p>
+
+<p align="center">
+  <i>event-driven signals • source-cited figures • read-only by design</i>
+</p>
+
+---
+
 ##  Security
 
 Security is enforced through isolation, distribution, and controlled access.
@@ -96,30 +120,6 @@ Infrastructure, configuration, and execution are continuously tuned to minimize 
 
 <p align="center">
   <i>low latency • consistent execution • optimized systems</i>
-</p>
-
----
-
-##  Network Intelligence
-
-The same monitoring we run for our own nodes, opened up as public analysis.
-Every figure links back to the source it was read from.
-
-| | |
-|---|---|
-| [**Celestia Daily Brief**](https://orionlabsone.cc/celestia) | daily mainnet analysis: anomaly signals, DA volume, namespace leaderboard, validator set, Nakamoto coefficient · [ask Orion](https://orionlabsone.cc/celestia/aichat) |
-| [**Monad Network Monitor**](https://orionlabsone.cc/monad) | daily mainnet brief: snapshot, network pulse, detected signals |
-| [**orion-agent-kit**](https://github.com/orioninfra/orion-agent-kit) | MCP server over the Celestia analysis, read-only, no keys or wallets |
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MCP-orionlabsone.cc%2Fmcp-black?style=flat-square"/>
-  <img src="https://img.shields.io/badge/REST-%2Fapi%2Flatest-grey?style=flat-square"/>
-  <a href="https://orionlabsone.cc/openapi.json"><img src="https://img.shields.io/badge/SPEC-OpenAPI%203.1-grey?style=flat-square"/></a>
-  <a href="https://orionlabsone.cc/api/rss"><img src="https://img.shields.io/badge/FEED-RSS-lightgrey?style=flat-square"/></a>
-</p>
-
-<p align="center">
-  <i>event-driven signals • source-cited figures • read-only by design</i>
 </p>
 
 ---
@@ -184,4 +184,5 @@ agents:    mcp server (typescript)
 <p align="center">
   ─────────────────────────────────────
 </p>
+
 
