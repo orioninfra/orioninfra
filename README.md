@@ -79,6 +79,16 @@ Every figure links back to the source it was read from.
 
 ---
 
+##  Operator Notes
+
+Practical recommendations for other validators: what to choose, what tends to break, and where the official docs say so.
+
+| | |
+|---|---|
+| [**celestia-fibre**](https://github.com/orioninfra/celestia-fibre) | running the Celestia Fibre server from app v10: topology, signing, memory sizing, storage, monitoring, failure modes |
+
+---
+
 ##  Security
 
 Security is enforced through isolation, distribution, and controlled access.
